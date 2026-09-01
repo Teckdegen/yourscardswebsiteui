@@ -113,7 +113,7 @@ export function HeroScrollSection() {
           </p>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
-            <a href="#get-card" className="btn-start">
+            <a href="#top" className="btn-start">
               <span className="btn-start-label">Get started</span>
               <span className="btn-start-arrow" aria-hidden>
                 <svg viewBox="0 0 24 24" fill="none">

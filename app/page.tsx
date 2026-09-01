@@ -1,6 +1,5 @@
 import { CashbackSection } from "@/components/CashbackSection";
 import { FaqSection } from "@/components/FaqSection";
-import { GetCardSection } from "@/components/GetCardSection";
 import { HeroSection } from "@/components/HeroSection";
 import { NetworkSection } from "@/components/NetworkSection";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -31,7 +30,6 @@ export default function Home() {
         </StackScroll>
         <CashbackSection />
         <FaqSection />
-        <GetCardSection />
       </main>
 
       <SiteFooter />

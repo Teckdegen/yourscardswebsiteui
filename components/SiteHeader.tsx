@@ -20,7 +20,7 @@ export function SiteHeader() {
             </a>
           </nav>
 
-          <a href="#get-card" className="header-signup">
+          <a href="#top" className="header-signup">
             Get started
           </a>
         </div>
