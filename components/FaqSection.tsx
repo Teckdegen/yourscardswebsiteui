@@ -9,7 +9,7 @@ const FAQS = [
   },
   {
     q: "How much does the card cost?",
-    a: "The physical Yours debit card is $10.",
+    a: "We charge $10 to create a virtual card. Card top-up fee is 2.3%.",
   },
   {
     q: "Does it work with Apple Pay and Google Pay?",
