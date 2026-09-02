@@ -15,9 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yours | Crypto debit that pays you back",
-  description:
-    "Yours crypto debit cards. $10 to start. Cash back on every spend. Apple Pay & Google Pay. Buy Now Pay Never credit lines. 50M+ merchants worldwide.",
+  metadataBase: new URL("https://www.yours.cards"),
+  title: "BUY NOW PAY NEVER",
+  description: "BUY NOW PAY NEVER",
   icons: {
     icon: [
       { url: "/favicon.png", sizes: "32x32", type: "image/png" },
@@ -25,6 +25,27 @@ export const metadata: Metadata = {
     ],
     shortcut: "/favicon.png",
     apple: "/yours-logo.png",
+  },
+  openGraph: {
+    title: "BUY NOW PAY NEVER",
+    description: "BUY NOW PAY NEVER",
+    type: "website",
+    siteName: "Yours",
+    url: "https://www.yours.cards",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "yours",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BUY NOW PAY NEVER",
+    description: "BUY NOW PAY NEVER",
+    images: ["/og.png"],
   },
 };
 
