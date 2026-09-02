@@ -120,7 +120,7 @@ export function CashbackSection() {
           >
             <img
               className="soar-logo soar-logo-4"
-              src="/logo.png"
+              src="/yours-logo.png"
               alt=""
               aria-hidden
             />

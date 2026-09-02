@@ -46,7 +46,7 @@ export function SiteFooter() {
         <div className="site-footer-grid">
           <div className="site-footer-brand">
             <a href="#top" className="site-footer-logo">
-              <img src="/logo.png" alt="" width={28} height={28} />
+              <img src="/yours-logo.png" alt="" width={28} height={28} />
               YOURS
             </a>
             <p className="site-footer-tag">
