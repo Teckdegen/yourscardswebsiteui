@@ -9,7 +9,7 @@ const FAQS = [
   },
   {
     q: "How much does the card cost?",
-    a: "We charge $10 to create a virtual card. Card top-up fee is 2.3%.",
+    a: "We charge $10 to create a virtual card. Card top-up fee is 2.5%.",
   },
   {
     q: "Does it work with Apple Pay and Google Pay?",
