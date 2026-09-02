@@ -19,7 +19,11 @@ export const metadata: Metadata = {
   description:
     "Yours crypto debit cards. $10 to start. Cash back on every spend. Apple Pay & Google Pay. Buy Now Pay Never credit lines. 50M+ merchants worldwide.",
   icons: {
-    icon: "/logo.png",
+    icon: [
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/logo.png", sizes: "500x500", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
     apple: "/logo.png",
   },
 };

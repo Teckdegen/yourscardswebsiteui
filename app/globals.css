@@ -322,12 +322,14 @@ html {
   width: 2.55rem;
   height: 2.55rem;
   flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 0.55rem;
 }
 
 .site-header-logo img {
-  width: 2.15rem;
-  height: 2.15rem;
-  object-fit: contain;
+  width: 2.55rem;
+  height: 2.55rem;
+  object-fit: cover;
 }
 
 .site-pill {
