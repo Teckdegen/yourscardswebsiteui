@@ -310,8 +310,24 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 0.5rem;
   pointer-events: auto;
+}
+
+.site-header-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.55rem;
+  height: 2.55rem;
+  flex-shrink: 0;
+}
+
+.site-header-logo img {
+  width: 2.15rem;
+  height: 2.15rem;
+  object-fit: contain;
 }
 
 .site-pill {
@@ -368,8 +384,21 @@ html {
     gap: 0.35rem;
   }
 
+  .site-header-logo,
   .site-pill {
     height: 2.15rem;
+  }
+
+  .site-header-logo {
+    width: 2.15rem;
+  }
+
+  .site-header-logo img {
+    width: 1.85rem;
+    height: 1.85rem;
+  }
+
+  .site-pill {
     padding: 0 0.85rem;
     font-size: 0.78rem;
   }
@@ -1958,8 +1987,8 @@ html {
 }
 
 .site-footer-logo img {
-  width: 1.7rem;
-  height: auto;
+  width: 1.85rem;
+  height: 1.85rem;
   object-fit: contain;
 }
 

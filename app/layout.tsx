@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   title: "Yours | Crypto debit that pays you back",
   description:
     "Yours crypto debit cards. $10 to start. Cash back on every spend. Apple Pay & Google Pay. Buy Now Pay Never credit lines. 50M+ merchants worldwide.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

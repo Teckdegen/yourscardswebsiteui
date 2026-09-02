@@ -27,6 +27,9 @@ export function SiteHeader() {
   return (
     <header className={`site-header${visible ? "" : " is-gone"}`}>
       <nav className="site-header-pills" aria-label="Primary">
+        <a href="#top" className="site-header-logo" aria-label="Yours">
+          <img src="/logo.png" alt="" width={32} height={32} />
+        </a>
         {NAV_LINKS.map((link) => (
           <a key={link.href} href={link.href} className="site-pill">
             {link.label}

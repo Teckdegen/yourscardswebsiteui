@@ -11,7 +11,7 @@ export function YoursCard({ className = "", compact = false }: YoursCardProps) {
     >
       <div className="yours-card-texture" />
 
-      <img src="/logo.PNG" alt="" className="yours-card-watermark" />
+      <img src="/logo.png" alt="" className="yours-card-watermark" />
 
       <div className="relative z-10 flex h-full flex-col justify-between">
         <div className="flex items-start justify-between">
