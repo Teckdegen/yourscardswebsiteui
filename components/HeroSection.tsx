@@ -18,7 +18,7 @@ function makeHeroStars(count: number) {
   return stars;
 }
 
-const HERO_STARS = makeHeroStars(72);
+const HERO_STARS = makeHeroStars(24);
 
 function StickerLine({
   text,
@@ -45,7 +45,6 @@ export function HeroSection() {
       <div className="hero-atmosphere-visual" aria-hidden>
         <img src="/hero-iphone.png" alt="" className="hero-atmosphere-phone" />
         <div className="hero-atmosphere-veil" />
-        <div className="hero-atmosphere-grain" />
         <div className="hero-atmosphere-stars">
           {HERO_STARS.map((star, i) => (
             <span

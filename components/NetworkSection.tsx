@@ -129,7 +129,7 @@ function makeStars(count: number) {
   }));
 }
 
-const STARS = makeStars(340);
+const STARS = makeStars(80);
 
 function isLightHex(hex: string) {
   const n = Number.parseInt(hex, 16);
