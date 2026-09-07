@@ -136,12 +136,7 @@ export function SpendFeedSection() {
                 </div>
                 <div className="spend-card-right">
                   <span className="spend-card-label">Paid</span>
-                  <span className="spend-card-paid">
-                    <span className="spend-card-down" aria-hidden>
-                      ▼
-                    </span>
-                    {event.paid}
-                  </span>
+                  <span className="spend-card-paid">{event.paid}</span>
                 </div>
               </article>
             ))}

@@ -1031,12 +1031,6 @@ html {
   line-height: 1.1;
 }
 
-.spend-card-down {
-  font-size: 0.48rem;
-  color: #f07178;
-  transform: translateY(1px);
-}
-
 
 /* ── Stack scroll (sibling sticky panels — next one slides up and covers) ── */
 .stack-scroll {
