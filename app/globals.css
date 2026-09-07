@@ -1031,10 +1031,10 @@ html {
   line-height: 1.1;
 }
 
-.spend-card-up {
+.spend-card-down {
   font-size: 0.48rem;
-  color: #5dde8a;
-  transform: translateY(-1px);
+  color: #f07178;
+  transform: translateY(1px);
 }
 
 

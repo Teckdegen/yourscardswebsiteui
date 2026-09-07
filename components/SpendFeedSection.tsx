@@ -9,29 +9,29 @@ type SpendEvent = {
   brand: "x" | "netflix" | "spotify" | "uber";
 };
 
-/** Real US web prices */
+/** Real US web prices — debits (money out) */
 const EVENTS: SpendEvent[] = [
   {
     name: "X",
-    paid: "$8.00",
+    paid: "-$8.00",
     logo: "/logos/x.svg",
     brand: "x",
   },
   {
     name: "Netflix",
-    paid: "$15.49",
+    paid: "-$15.49",
     logo: "/logos/netflix.svg",
     brand: "netflix",
   },
   {
     name: "Spotify",
-    paid: "$12.99",
+    paid: "-$12.99",
     logo: "/logos/spotify.svg",
     brand: "spotify",
   },
   {
     name: "Uber",
-    paid: "$18.40",
+    paid: "-$18.40",
     logo: "/logos/uber.svg",
     brand: "uber",
   },
@@ -137,8 +137,8 @@ export function SpendFeedSection() {
                 <div className="spend-card-right">
                   <span className="spend-card-label">Paid</span>
                   <span className="spend-card-paid">
-                    <span className="spend-card-up" aria-hidden>
-                      ▲
+                    <span className="spend-card-down" aria-hidden>
+                      ▼
                     </span>
                     {event.paid}
                   </span>
