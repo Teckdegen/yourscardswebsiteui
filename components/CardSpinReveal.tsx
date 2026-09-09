@@ -113,20 +113,6 @@ export function HeroScrollSection() {
           </p>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
-            <a href="#top" className="btn-start">
-              <span className="btn-start-label">Get started</span>
-              <span className="btn-start-arrow" aria-hidden>
-                <svg viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M5 12h11M12 7l5 5-5 5"
-                    stroke="currentColor"
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
-            </a>
             <a href="#tap-in" className="btn-watch">
               How it works
             </a>

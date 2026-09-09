@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 const NAV_LINKS = [
   { href: "#tap-in", label: "How it works" },
   { href: "#faq", label: "FAQ" },
-  { href: "#top", label: "Get started" },
 ] as const;
 
 export function SiteHeader() {
