@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { showComingSoon } from "./ComingSoonBubble";
 import { YoursCard } from "./YoursCard";
 
 function clamp(value: number, min = 0, max = 1) {
@@ -113,7 +114,11 @@ export function HeroScrollSection() {
           </p>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
-            <a href="#top" className="btn-start">
+            <button
+              type="button"
+              className="btn-start"
+              onClick={(event) => showComingSoon(event.currentTarget)}
+            >
               <span className="btn-start-label">Get started</span>
               <span className="btn-start-arrow" aria-hidden>
                 <svg viewBox="0 0 24 24" fill="none">
@@ -126,7 +131,7 @@ export function HeroScrollSection() {
                   />
                 </svg>
               </span>
-            </a>
+            </button>
             <a href="#tap-in" className="btn-watch">
               How it works
             </a>

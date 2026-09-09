@@ -368,6 +368,120 @@ html {
   transform: translateY(-1px);
 }
 
+button.site-pill {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.cloud-bubble {
+  position: fixed;
+  z-index: 80;
+  width: max-content;
+  max-width: min(18rem, calc(100vw - 1.5rem));
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, 6px) scale(0.82);
+  transform-origin: top center;
+  transition:
+    opacity 0.28s ease,
+    transform 0.45s cubic-bezier(0.22, 1.4, 0.36, 1);
+}
+
+.cloud-bubble.is-on {
+  opacity: 1;
+  transform: translate(-50%, 0) scale(1);
+}
+
+.cloud-bubble-body {
+  position: relative;
+  padding: 0.95rem 1.2rem 1rem;
+  border-radius: 1.35rem;
+  background:
+    radial-gradient(circle at 18% 30%, #ffffff 0%, #f7fbff 55%, #eef4fb 100%);
+  color: #0b1220;
+  box-shadow:
+    0 16px 40px rgba(4, 8, 20, 0.28),
+    0 0 0 1px rgba(255, 255, 255, 0.7),
+    0 0 28px rgba(255, 255, 255, 0.35);
+  animation: cloud-drift 3.6s ease-in-out infinite;
+}
+
+.cloud-bubble-copy {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.cloud-bubble-tail {
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px 4px 2px 10px;
+  background: #fff;
+  transform: translateX(-50%) rotate(45deg);
+  box-shadow: -2px -2px 0 rgba(255, 255, 255, 0.4);
+}
+
+.cloud-puff {
+  position: absolute;
+  border-radius: 9999px;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.cloud-puff-a {
+  width: 28px;
+  height: 22px;
+  top: -10px;
+  left: 18%;
+}
+
+.cloud-puff-b {
+  width: 36px;
+  height: 26px;
+  top: -14px;
+  left: 42%;
+}
+
+.cloud-puff-c {
+  width: 24px;
+  height: 18px;
+  top: -8px;
+  right: 16%;
+}
+
+.cloud-puff-d {
+  width: 18px;
+  height: 14px;
+  bottom: -6px;
+  left: 28%;
+}
+
+@keyframes cloud-drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cloud-bubble,
+  .cloud-bubble-body {
+    animation: none;
+    transition: opacity 0.2s ease;
+  }
+}
+
 .hero-atmosphere-stars {
   position: absolute;
   inset: 0;
