@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ComingSoonBubble, showComingSoon } from "./ComingSoonBubble";
 
 const NAV_LINKS = [
   { href: "#tap-in", label: "How it works" },
   { href: "#faq", label: "FAQ" },
+  { href: "#top", label: "Get started" },
 ] as const;
 
 export function SiteHeader() {
@@ -35,15 +35,7 @@ export function SiteHeader() {
             {link.label}
           </a>
         ))}
-        <button
-          type="button"
-          className="site-pill"
-          onClick={(event) => showComingSoon(event.currentTarget)}
-        >
-          Get started
-        </button>
       </nav>
-      <ComingSoonBubble />
     </header>
   );
 }

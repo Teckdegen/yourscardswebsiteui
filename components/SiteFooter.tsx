@@ -71,16 +71,6 @@ export function SiteFooter() {
               <IconOut />
             </a>
           </div>
-
-          <div className="site-footer-col">
-            <p className="site-footer-heading">Developers</p>
-            <a href="#docs">
-              Docs
-              <IconOut />
-            </a>
-            <a href="#terms">Terms</a>
-            <a href="#privacy">Privacy</a>
-          </div>
         </div>
 
         <div className="site-footer-meta">
