@@ -73,7 +73,7 @@ export function HeroSection() {
         <StickerLine
           as="p"
           className="hero-sticker-sub"
-          text="Earn on every swipe."
+          text="Buy Now. Pay Never."
         />
       </div>
     </section>

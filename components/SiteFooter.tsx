@@ -21,6 +21,14 @@ function IconX() {
   );
 }
 
+function IconTelegram() {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M21.9 4.3c.3-.9-.5-1.6-1.3-1.3L2.7 9.6c-.9.3-.9 1.5.1 1.8l4.6 1.5 1.8 5.6c.3.9 1.4 1.1 2 .4l2.6-2.8 4.7 3.5c.8.6 1.9.1 2.1-.9L21.9 4.3zM9.3 13.2l8.2-5.1-6.4 6.8-.2 2.6-1.6-4.3z" />
+    </svg>
+  );
+}
+
 export function SiteFooter() {
   const year = new Date().getFullYear();
 
@@ -34,15 +42,15 @@ export function SiteFooter() {
               YOURS
             </a>
             <p className="site-footer-tag">
-              Yours is crypto debit for everyday spend. Visa rails, Apple Pay
-              and Google Pay, cash back on every swipe.
+              YOURS is a Visa debit card. Spend today. Build Yours Score. Your
+              payment today can fund tomorrow’s bills.
             </p>
           </div>
 
           <div className="site-footer-col">
             <p className="site-footer-heading">Product</p>
             <a href="#tap-in">How it works</a>
-            <a href="#cashback">Cashback</a>
+            <a href="#coverage">Coverage</a>
             <a href="#network">Merchants</a>
             <a href="#spend">Spend</a>
           </div>
@@ -59,6 +67,14 @@ export function SiteFooter() {
 
         <div className="site-footer-meta">
           <div className="site-footer-social">
+            <a
+              href="https://t.me/yoursdotcards"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Telegram"
+            >
+              <IconTelegram />
+            </a>
             <a
               href="https://x.com/yoursdotcards"
               target="_blank"

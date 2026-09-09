@@ -104,12 +104,12 @@ export function HeroScrollSection() {
           </h1>
 
           <p className="hero-title">
-            <span className="hero-title-line">Earn on every swipe.</span>
+            <span className="hero-title-line">Buy Now. Pay Never.</span>
           </p>
 
           <p className="hero-sub">
-            Crypto debit with Apple Pay, Google Pay, and cash back on every
-            transaction. Card for $10. Works at 50M+ merchants.
+            Visa debit with Apple Pay and Google Pay. Your spend builds Yours
+            Score. Score decides what YOURS can cover tomorrow.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">

@@ -18,7 +18,8 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.yours.cards"),
   title: "BUY NOW PAY NEVER",
-  description: "BUY NOW PAY NEVER",
+  description:
+    "Your payment today can fund tomorrow’s bills. Visa debit. Yours Score. Covered by Yours.",
   icons: {
     icon: [
       { url: "/favicon.png", sizes: "32x32", type: "image/png" },
@@ -29,7 +30,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "BUY NOW PAY NEVER",
-    description: "BUY NOW PAY NEVER",
+    description:
+      "Your payment today can fund tomorrow’s bills. Visa debit. Yours Score. Covered by Yours.",
     type: "website",
     siteName: "Yours",
     url: "https://www.yours.cards",
@@ -45,7 +47,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "BUY NOW PAY NEVER",
-    description: "BUY NOW PAY NEVER",
+    description:
+      "Your payment today can fund tomorrow’s bills. Visa debit. Yours Score. Covered by Yours.",
     images: ["/og.png"],
   },
 };

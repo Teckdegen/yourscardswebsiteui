@@ -30,13 +30,12 @@ export function CashbackSection() {
 
   return (
     <section
-      id="cashback"
+      id="coverage"
       ref={ref}
       className={`soar-bento${active ? " is-in" : ""}`}
     >
       <div className="soar-bento-shell">
         <div className="soar-bento-grid">
-          {/* 1 white — cashback copy */}
           <article
             className="soar-cell soar-cell-white soar-pop soar-pop-from-left"
             style={{ ["--i" as string]: 0 }}
@@ -60,15 +59,15 @@ export function CashbackSection() {
               aria-hidden
             />
             <div className="soar-cell-foot">
-              <h2 className="soar-cell-title">Cash back on every swipe.</h2>
+              <h2 className="soar-cell-title">Your spend builds Yours Score.</h2>
               <p className="soar-cell-text">
-                In store, online, or tap to pay. Every Yours spend earns. No
-                hoops, no seasonal rates.
+                Card spend, onchain history, trading, fees paid, and social
+                standing become rank. Rank is not cash. It decides how much can
+                be covered and which bills qualify.
               </p>
             </div>
           </article>
 
-          {/* 2 sky — cashback UI */}
           <div
             className="soar-cell soar-cell-sky soar-pop soar-pop-from-right"
             style={{ ["--i" as string]: 1 }}
@@ -76,13 +75,12 @@ export function CashbackSection() {
           >
             <div className="soar-pill">
               <span className="soar-pill-check">✓</span>
-              <span className="soar-pill-main">Cash back</span>
-              <span className="soar-pill-tag">Uber</span>
-              <span className="soar-pill-meta">+$1.24</span>
+              <span className="soar-pill-main">Covered by Yours</span>
+              <span className="soar-pill-tag">Score</span>
+              <span className="soar-pill-meta">+$48</span>
             </div>
           </div>
 
-          {/* 3 sky — credit UI */}
           <div
             className="soar-cell soar-cell-sky soar-pop soar-pop-from-left"
             style={{ ["--i" as string]: 2 }}
@@ -93,26 +91,26 @@ export function CashbackSection() {
                 <span className="soar-avatar" />
                 <div>
                   <p className="soar-card-name">
-                    Your line <span className="soar-verified">✓</span>
+                    Yours Score <span className="soar-verified">✓</span>
                   </p>
-                  <p className="soar-card-sub">Reputation strong</p>
+                  <p className="soar-card-sub">Rank unlocked coverage</p>
                 </div>
-                <span className="soar-money">$250</span>
+                <span className="soar-money">720</span>
               </div>
               <div className="soar-bar">
                 <div className="soar-bar-fill" />
               </div>
               <p className="soar-card-body">
-                Coverage unlocked. Next purchase may be covered.
+                After checkout clears, YOURS can cover the purchase and send it
+                back to your wallet.
               </p>
               <div className="soar-card-foot">
-                <span>Buy Now Pay Never</span>
+                <span>Buy Now. Pay Never.</span>
                 <span className="soar-link">View →</span>
               </div>
             </div>
           </div>
 
-          {/* 4 white — credit copy */}
           <article
             id="credit"
             className="soar-cell soar-cell-white soar-pop soar-pop-from-right"
@@ -127,13 +125,12 @@ export function CashbackSection() {
             <div className="soar-cell-foot">
               <h2 className="soar-cell-title">Buy Now. Pay Never.</h2>
               <p className="soar-cell-text">
-                Reputation unlocks coverage. Strong members qualify for credit
-                lines we pay. Spend without the bill when you earn it.
+                Your payment today can fund tomorrow’s bills. Checkout stays
+                normal. If you qualify, YOURS covers it. No loan. No repayment.
               </p>
             </div>
           </article>
 
-          {/* 5 white — token copy */}
           <article
             id="token"
             className="soar-cell soar-cell-white soar-pop soar-pop-from-bottom"
@@ -152,34 +149,34 @@ export function CashbackSection() {
               aria-hidden
             />
             <div className="soar-cell-foot">
-              <h2 className="soar-cell-title">Own the network you spend on.</h2>
+              <h2 className="soar-cell-title">The reserve funds the cover.</h2>
               <p className="soar-cell-text">
-                Every YOURS transfer carries a 3% tax. That tax is airdropped as
-                stock to holders.
+                A 3% tax on token trading goes into the bill coverage reserve.
+                Card and network fees sit beside it. Your Score decides who can
+                use it.
               </p>
             </div>
           </article>
 
-          {/* 6 sky — token UI */}
           <div
             className="soar-cell soar-cell-sky soar-pop soar-pop-from-top"
             style={{ ["--i" as string]: 5 }}
             aria-hidden
           >
             <div className="soar-profile">
-              <p className="soar-profile-status">3% transfer tax live…</p>
+              <p className="soar-profile-status">3% tax → coverage reserve…</p>
               <div className="soar-profile-row">
                 <span className="soar-avatar soar-avatar-lg" />
                 <div>
                   <p className="soar-card-name">
                     YOURS <span className="soar-verified">✓</span>
                   </p>
-                  <p className="soar-card-sub">Holders · airdrop</p>
+                  <p className="soar-card-sub">Reserve · coverage</p>
                 </div>
               </div>
               <div className="soar-tags">
-                <span className="soar-tag soar-tag-green">Stock</span>
-                <span className="soar-tag">100 YOURS</span>
+                <span className="soar-tag soar-tag-green">Covered</span>
+                <span className="soar-tag">Yours Score</span>
                 <span className="soar-tag">3% tax</span>
               </div>
             </div>
