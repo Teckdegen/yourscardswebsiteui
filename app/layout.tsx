@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans, JetBrains_Mono } from "next/font/google";
+import { KillCaret } from "@/components/KillCaret";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -56,6 +57,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${dmSans.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-void font-sans text-star">
+        <KillCaret />
         {children}
       </body>
     </html>
